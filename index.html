@@ -6,7 +6,11 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- fontawesom -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-  <!-- /fontawesom -->
+  <!-- font -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+  <!-- /font -->
   <link rel="stylesheet" href="css/general.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="css/utils.css">
@@ -272,10 +276,32 @@
     </div>
   </main>
   
-  <footer class="debug h85">
+  <footer class="h85">
     <div class="nav d-flex">
-      <div class="left section debug">1</div>
-      <div class="center section debug">
+      <!-- nav left -->
+      <div class="left section">
+        <nav>
+          <ul class="d-flex">
+            <li>
+              <i class="fa-solid fa-microphone"></i>
+              <p>Mute</p>
+            </li>
+            <li>
+              <i id="chevron-li" class="fa-solid fa-chevron-up"></i>
+            </li>
+            <li>
+              <i class="fa-solid fa-video"></i>
+              <p>Stop Video</p>
+            </li>
+            <li>
+              <i id="chevron-li" class="fa-solid fa-chevron-up"></i>
+            </li>
+          </ul>
+        </nav>
+      </div>
+
+      <!-- nav-centrale -->
+      <div class="center section d-flex">
         <nav>
           <ul class="d-flex">
             <li>
@@ -295,7 +321,7 @@
               <p>Share Screen</p>
             </li>
             <li>
-              <i class="fa-solid fa-chevron-up"></i>
+              <i id="chevron-li" class="fa-solid fa-chevron-up"></i>
             </li>
             <li>
               <i class="fa-solid fa-comment"></i>
@@ -316,6 +342,7 @@
           </ul>
         </nav>
       </div>
+      <!-- nav right -->
       <div class="right section d-flex debug h85 center">
         <p>End meeting</p>
       </div>
