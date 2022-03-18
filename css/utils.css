@@ -1,0 +1,27 @@
+.debug{
+  background-color: rgba(240, 138, 138, 0.466);
+  border: 1px solid black;
+}
+
+.h100{
+  height: 100px;
+}
+
+.h200{
+  height: 200px;
+}
+
+/* flex utils */
+
+.d-flex{
+  display: flex;
+}
+
+.center{
+  justify-content: center;
+  align-items: center;
+}
+
+.wrap{
+  flex-wrap: wrap;
+}
