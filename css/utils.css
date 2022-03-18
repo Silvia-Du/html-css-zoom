@@ -3,12 +3,18 @@
   border: 1px solid black;
 }
 
-.h100{
-  height: 100px;
+.h85{
+  height: 85px;
 }
 
 .h200{
   height: 200px;
+}
+
+.section{
+  width: 90%;
+  height: 100%;
+  margin: 0 auto;
 }
 
 /* flex utils */
@@ -25,3 +31,5 @@
 .wrap{
   flex-wrap: wrap;
 }
+
+/* /flex utils */
