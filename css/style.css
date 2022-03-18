@@ -61,7 +61,18 @@ footer .nav{
   justify-content: space-between;
 }
 
-footer .nav .right-section{
+footer .nav .left.section{
+  
+}
+
+footer .nav .right.section{
+  width: 300px;
+  background-color: #4a4a4a;
   color: red;
-  padding: 0 15px;
+  flex-grow: 0;
+}
+
+footer .nav .center.section ul{
+  list-style: none;
+  color: white;
 }
