@@ -5,7 +5,24 @@
 }
 
 main{
-  height: calc(100vh - 170px);
+  height: calc(100vh - 85px);
   overflow: auto;
+  padding-top: 85px;
+}
+
+header{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 999;
+  justify-content: flex-end;
+  background-color: black;
+}
+
+footer{
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  z-index: 998;
 }
 

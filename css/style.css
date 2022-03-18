@@ -1,0 +1,32 @@
+
+/* HEADER */
+
+.speaker-nav{
+  width: 300px;
+  color: white;
+  justify-content: flex-end;
+  align-items: flex-start;
+  padding: 5px 5px 0 0;
+
+}
+
+.speaker-nav .btn{
+  font-size: 1rem;
+  background-color: #4a4a4a;
+  margin-right: 10px;
+  padding: 5px 5px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.speaker-nav .btn .fa-table-cells{
+  margin-right: 10px;
+}
+
+
+/* MAIN */
+
+
+
+
+/* FOOTER */
