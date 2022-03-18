@@ -39,10 +39,6 @@ main .section .card{
   background-size: cover;
 }
 
-main .section .card img{
-  height: 100%;
-}
-
 .overlay{
   position: absolute;
   bottom: 0;
@@ -52,7 +48,8 @@ main .section .card img{
   padding: 5px;
 }
 
-.overlay i, p{
+main .card .overlay i, 
+main .card .overlay p{
   display: inline-block;
 }
 
