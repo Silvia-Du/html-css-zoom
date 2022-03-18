@@ -2,10 +2,10 @@
 /* HEADER */
 
 .speaker-nav{
-  width: 300px;
   color: white;
   justify-content: flex-end;
   align-items: flex-start;
+  flex-shrink: 0;
   padding: 5px 5px 0 0;
 
 }
@@ -26,7 +26,42 @@
 
 /* MAIN */
 
+main .section{
+  justify-content: space-between;
+  overflow: auto;
+  
+}
 
+main .section .card{
+  width: 250px;
+  height: 180px;
+  margin-bottom: 10px;
+  flex-shrink: 0;
+  justify-content: flex-start;
+  align-items: flex-end;
+  background-image: url(../rick-and-morty.jpeg);
+  background-position: center;
+  background-size: cover;
+}
 
+.overlay{
+  color: white;
+  background-color: black;
+  opacity: 0.6;
+  padding: 5px;
+}
+
+.overlay i{
+  margin-right: 5px;
+}
 
 /* FOOTER */
+
+footer .nav{
+  justify-content: space-between;
+}
+
+footer .nav .right-section{
+  color: red;
+  padding: 0 15px;
+}
