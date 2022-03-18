@@ -7,6 +7,10 @@
   height: 85px;
 }
 
+.active-icon{
+  color: #4bc800;
+}
+
 /* flex utils */
 
 .d-flex{
