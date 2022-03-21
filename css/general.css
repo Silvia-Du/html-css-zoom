@@ -9,32 +9,25 @@ body{
 }
 
 main{
-  height: calc(100vh - 85px);
-  padding-top: 85px;
+  height: calc(100vh - 170px);
   overflow: auto;
   background-color: black;
+  justify-content: center;
 }
 
 header{
   width: 100%;
   justify-content: flex-end;
   background-color: black;
-  position: fixed;
-  top: 0;
-  z-index: 999;
-}
+ }
 
-.section{
-  width: 95%;
-  height: 100%;
-  margin: 0 auto;
-}
 
 footer{
   width: 100%;
   background-color: #222222;
-  position: fixed;
-  bottom: 0;
-  z-index: 998;
+}
+
+.btn, li:hover{
+  cursor: pointer;
 }
 

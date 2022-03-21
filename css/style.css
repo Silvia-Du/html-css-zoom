@@ -28,15 +28,22 @@ main .section{
   justify-content: space-between;
 }
 
-main .section .card{
+main .card{
   width: 250px;
   height: 160px;
-  margin-bottom: 10px;
+  border: 2px solid black;
   flex-shrink: 0;
   position: relative;
+  /* SOLUZIONE PRE CORREZIONE IN AULA */
+  /* 
   background-image: url(../rick-and-morty.jpeg);
   background-position: center;
-  background-size: cover;
+  background-size: cover; */
+}
+
+main .card img{
+  width: 100%;
+  
 }
 
 .overlay{
@@ -61,12 +68,13 @@ footer .nav{
 
 footer .nav .left.section{
   width: 215px;
-  flex-shrink: 0;
+  
 }
 
 footer .nav .center.section,
 footer .nav .left.section {
   padding: 15px 0;
+  flex-shrink: 0;
 }
 
 footer .nav .right.section{
@@ -74,6 +82,7 @@ footer .nav .right.section{
   background-color: #4a4a4a;
   color: red;
   flex-grow: 0;
+  flex-shrink: 0;
 }
 
 footer .nav .section ul{
